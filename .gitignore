@@ -3,7 +3,7 @@
 # Edit at https://www.gitignore.io/?templates=git,java,maven,windows,eclipse
 
 ### Eclipse ###
-.metadata
+##.metadata
 bin/
 tmp/
 *.tmp
@@ -11,7 +11,7 @@ tmp/
 *.swp
 *~.nib
 local.properties
-.settings/
+##.settings/
 .loadpath
 .recommenders
 .target/
@@ -35,13 +35,13 @@ config.properties
 .autotools
 
 # Java annotation processor (APT)
-.factorypath
+##.factorypath
 
 # PDT-specific (PHP Development Tools)
 .buildpath
 
 # sbteclipse plugin
-.target
+##.target
 
 # Tern plugin
 .tern-project
@@ -65,10 +65,10 @@ config.properties
 
 ### Eclipse Patch ###
 # Eclipse Core
-.project
+##.project
 
 # JDT-specific (Eclipse Java Development Tools)
-.classpath
+##.classpath
 
 # Annotation Processing
 .apt_generated
