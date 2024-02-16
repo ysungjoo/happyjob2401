@@ -3,66 +3,51 @@ package kr.happyjob.study.system.dto;
 import java.util.Date;
 
 public class NoticeDto {
-	private int notice_code;
-	
-	private int user_code;
-	
-	private int notice_category_code;
-	
-	private int file_code;
-	
-	private String notice_title;
-	
-	private String notice_contents;
-	
+	private int no;
+	private String title;
+	private String loginID;
+	private String contents;
+	private String delete_yn;
 	private Date write_date;
-
-	public int getNotice_code() {
-		return notice_code;
+	
+	public int getNo() {
+		return no;
 	}
 
-	public void setNotice_code(int notice_code) {
-		this.notice_code = notice_code;
+	public void setNo(int no) {
+		this.no = no;
 	}
 
-	public int getUser_code() {
-		return user_code;
+	public String getTitle() {
+		return title;
 	}
 
-	public void setUser_code(int user_code) {
-		this.user_code = user_code;
+	public void setTitle(String title) {
+		this.title = title;
 	}
 
-	public int getNotice_category_code() {
-		return notice_category_code;
+	public String getLoginID() {
+		return loginID;
 	}
 
-	public void setNotice_category_code(int notice_category_code) {
-		this.notice_category_code = notice_category_code;
+	public void setLoginID(String loginID) {
+		this.loginID = loginID;
 	}
 
-	public int getFile_code() {
-		return file_code;
+	public String getContents() {
+		return contents;
 	}
 
-	public void setFile_code(int file_code) {
-		this.file_code = file_code;
+	public void setContents(String contents) {
+		this.contents = contents;
 	}
 
-	public String getNotice_title() {
-		return notice_title;
+	public String getDelete_yn() {
+		return delete_yn;
 	}
 
-	public void setNotice_title(String notice_title) {
-		this.notice_title = notice_title;
-	}
-
-	public String getNotice_contents() {
-		return notice_contents;
-	}
-
-	public void setNotice_contents(String notice_contents) {
-		this.notice_contents = notice_contents;
+	public void setDelete_yn(String delete_yn) {
+		this.delete_yn = delete_yn;
 	}
 
 	public Date getWrite_date() {
