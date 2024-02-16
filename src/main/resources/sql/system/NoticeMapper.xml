@@ -13,7 +13,7 @@
     	notice_title,
     	notice_contents,
     	date_format(write_date, '%Y-%m-%d') AS write_date
-    FROM notice
+    FROM tb_notice
     <choose>
     	<when test="categoryCode == 7">
     	where notice_category_code != 7
